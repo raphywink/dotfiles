@@ -177,6 +177,9 @@ defaults write com.apple.dock showhidden -bool true
 # Enable the 'reduce transparency' option. Save GPU cycles.
 defaults write com.apple.universalaccess reduceTransparency -bool true
 
+# Enable audohide
+defaults write com.apple.Dock autohide -bool true
+
 # Hot corners
 # Possible values:
 #  0: no-op
