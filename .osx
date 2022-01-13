@@ -180,6 +180,10 @@ defaults write com.apple.universalaccess reduceTransparency -bool true
 # Enable audohide
 defaults write com.apple.Dock autohide -bool true
 
+# place on left
+defaults write com.apple.dock orientation left
+
+
 # Hot corners
 # Possible values:
 #  0: no-op
